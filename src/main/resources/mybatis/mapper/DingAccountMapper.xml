@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gdiot.ssm.dao.DingAccountMapper">
+
+    <insert id="insertOne">
+		INSERT INTO ding_account (client,suiteId,appId,suiteKey,suiteSecret )
+		values (#{client},#{suiteId},#{appId},#{suiteKey},#{suiteSecret} )
+	</insert>
+    <select id="selectAccountList" resultType="com.gdiot.ssm.entity.DingAccountPo">
+        select * from ding_account
+        where 1 = 1
+        <if test="client != null">
+            and client = #{client}
+        </if>
+        order by id desc
+        limit #{offset} ,#{limit}
+
+    </select>
+    <select id="countAccountList" resultType="java.lang.Integer">
+        select count(*) from ding_account
+        where 1 = 1
+        <if test="client != null">
+            and client = #{client}
+        </if>
+        order by id desc
+    </select>
+</mapper>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gdiot.ssm.dao.DingDepDataMapper">
+    <resultMap type="com.gdiot.ssm.entity.DingDepPo" id="BaseResultMap">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result property="dep_id" column="dep_id" jdbcType="VARCHAR"/>
+        <result property="dep_name" column="dep_name" jdbcType="VARCHAR"/>
+        <result property="dep_detail" column="dep_detail" jdbcType="VARCHAR"/>
+        <result property="parent_id" column="parent_id" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_Sql">
+		id,dep_id,dep_name,parent_id,dep_detail
+	</sql>
+
+    <insert id="insertOne" parameterType="com.gdiot.ssm.entity.DingDepPo">
+        insert into ding_dep_detail (
+        dep_id,dep_name,parent_id,dep_detail
+        ) values (
+        <if test="dep_id != null">
+            #{dep_id,jdbcType=VARCHAR},
+        </if>
+        <if test="dep_name != null">
+            #{dep_name,jdbcType=VARCHAR},
+        </if>
+        <if test="parent_id != null">
+            #{parent_id,jdbcType=VARCHAR},
+        </if>
+        <if test="dep_detail != null">
+            #{dep_detail,jdbcType=VARCHAR}
+        </if>
+        )
+    </insert>
+
+    <update id="updateDetail" parameterType="com.gdiot.ssm.entity.DingDepPo">
+		update ding_dep_detail 
+		set dep_name=#{dep_name,jdbcType=VARCHAR},parent_id=#{parent_id,jdbcType=VARCHAR}, dep_detail=#{dep_detail,jdbcType=VARCHAR}
+		where dep_id=#{dep_id,jdbcType=VARCHAR}
+	</update>
+
+    <select id="selectOne" resultMap="BaseResultMap">
+        select * from ding_dep_detail
+        where 1 = 1
+        <if test="dep_id != null">
+            and dep_id = #{dep_id}
+        </if>
+        order by id desc
+    </select>
+</mapper>

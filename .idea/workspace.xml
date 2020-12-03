@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f644cdea-bc0d-4487-b9a6-6e24599db072" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sp_ding_manager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/scheduled/ScheduledTimeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/scheduled/ScheduledTimeTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/scheduled/TimeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/scheduled/TimeTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/action/DingDingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/action/DingDingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/action/TestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/action/TestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/action/TestAction2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/action/TestAction2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/action/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/dao/DingAccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/dao/DingAccountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/dao/DingDepDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/dao/DingDepDataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/dao/DingDingUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/dao/DingDingUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/dao/DingUserDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/dao/DingUserDataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingAccountPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingAccountPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingDepPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingDepPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingMsgDataPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingMsgDataPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingUserInfoPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingUserInfoPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingUserPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingUserPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/notify/AlyNotifyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/notify/AlyNotifyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/notify/NotifySendUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/notify/NotifySendUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/AsyncService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/AsyncService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/IDingAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/IDingAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/IDingDepDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/IDingDepDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/IDingUserDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/IDingUserDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/impl/AsyncServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/impl/AsyncServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/impl/DingAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/impl/DingAccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/impl/DingDepDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/impl/DingDepDataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/impl/DingDingUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/impl/DingDingUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/impl/DingUserDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/impl/DingUserDataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/session/RequestProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/session/RequestProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/session/SessionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/session/SessionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/task/DataSenderTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/task/DataSenderTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/task/ExecutorConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/task/ExecutorConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/task/VisiableThreadPoolTaskExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/task/VisiableThreadPoolTaskExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/DateUtil2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/DateUtil2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/DingDataAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/DingDataAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/DingDingUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/DingDingUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/PropertiesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/SpringContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/util/SpringContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/DingAccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/DingAccountMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/DingDepDataMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/DingDepDataMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/DingDingUser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/DingDingUser.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/DingUserDataMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/DingUserDataMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JupyterTrust" id="3d84c567-5424-4144-9d18-59248a171ca2" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\settings\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l8LJXubigTKp6XQfQQhgMRuQtx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp_ding_manager" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gdiot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration useDefault="false">C:\Users\GDXXJS\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\project\dingding_login" />
+          <option name="myCopyRoot" value="E:\project\dingding_login" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\project\dingding_login" />
+          <option name="myCopyRoot" value="E:\project\dingding_login" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f644cdea-bc0d-4487-b9a6-6e24599db072" name="Default Changelist" comment="" />
+      <created>1606973700720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606973700720</updated>
+      <workItem from="1606973701990" duration="81000" />
+      <workItem from="1606974407191" duration="10915000" />
+      <workItem from="1606985896160" duration="1406000" />
+      <workItem from="1606987925612" duration="1154000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1606974560295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606974560295" />
+    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1606978765146">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606978765146" />
+    <state x="739" y="221" key="RollbackChangesDialog" timestamp="1606983754430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606983754430" />
+    <state x="602" y="228" width="998" height="708" key="SettingsEditor" timestamp="1606982741935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="602" y="228" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606982741935" />
+    <state x="773" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606981612609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="773" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606981612609" />
+    <state x="334" y="180" key="new project wizard" timestamp="1606981551218">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606981551218" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1606988176278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606988176278" />
+    <state x="765" y="421" key="svn.upgradeDialog" timestamp="1606973782286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="421" key="svn.upgradeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606973782286" />
+    <state x="679" y="383" key="svn4idea.checkout.options" timestamp="1606973780742">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="383" key="svn4idea.checkout.options/0.0.1920.1040@0.0.1920.1040" timestamp="1606973780742" />
+  </component>
+</project>

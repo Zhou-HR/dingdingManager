@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dingding-login?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&rewriteBatchedStatements=true
+    username: root
+    password: pAssword@051011
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+mybatis:
+  type-aliases-package: com.gdiot.ssm.entity
+  config-locations: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+  configuration:
+    map-underscore-to-camel-case: true
+
+server:
+  port: 9082
+    

@@ -1,0 +1,105 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.gdiot.ssm.dao.DingDingUserMapper">
+
+    <select id="selectDingDingUser" resultType="com.gdiot.ssm.entity.DingUserResult">
+		select dd_id,NAME,dept1,dept2,dept3,dept4,dept5,unionid from dingding_user  
+		order by id desc 
+		limit #{offset} ,#{limit}
+	</select>
+    <select id="selectDingDingUserCount" resultType="int">
+		select count(*) from dingding_user 
+	</select>
+
+    <insert id="insertDingDingUser">
+		INSERT INTO dingding_user (dd_id,NAME,work_no,erp_no,email,dept1,dept2,dept3,dept4,dept5,
+		POSITION,mobile,oa_no,belong_big_district,position_unit,cost_center,salary_location,position_type, 
+		start_work_date,work_age,work_location,phone,belong_line,line_post,become_regular_date,id_name,id_no,
+		roles,unionid,update_time,
+		erpUnionPay,erpCompanyCode,erpBuCode,erpBuName,erpCompanyName,erpBankNo,erpBankName,erpRank,erpIDCard,ifPushMaycur
+		)
+		values (#{ddId,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR},#{workNo,jdbcType=VARCHAR},#{erpNo,jdbcType=VARCHAR},#{email,jdbcType=VARCHAR},
+		#{dept1,jdbcType=VARCHAR},#{dept2,jdbcType=VARCHAR},#{dept3,jdbcType=VARCHAR},#{dept4,jdbcType=VARCHAR},#{dept5,jdbcType=VARCHAR},
+		#{position,jdbcType=VARCHAR},#{mobile,jdbcType=VARCHAR},#{oaNo,jdbcType=VARCHAR},#{belongBigDistrict,jdbcType=VARCHAR},
+		#{positionUnit,jdbcType=VARCHAR},#{costCenter,jdbcType=VARCHAR},#{salaryLocation,jdbcType=VARCHAR},#{positionType,jdbcType=VARCHAR},
+		#{startWorkDate,jdbcType=VARCHAR},#{workAge,jdbcType=VARCHAR},#{workLocation,jdbcType=VARCHAR},#{phone,jdbcType=VARCHAR},
+		#{belongLine,jdbcType=VARCHAR},#{linePost,jdbcType=VARCHAR},#{becomeRegularDate,jdbcType=VARCHAR},#{idName,jdbcType=VARCHAR},
+		#{idNo,jdbcType=VARCHAR},#{roles,jdbcType=VARCHAR},#{unionid,jdbcType=VARCHAR},#{updateTime,jdbcType=VARCHAR},
+		#{erpUnionPay,jdbcType=VARCHAR},#{erpCompanyCode,jdbcType=VARCHAR},#{erpBuCode,jdbcType=VARCHAR},#{erpBuName,jdbcType=VARCHAR},
+		#{erpCompanyName,jdbcType=VARCHAR},#{erpBankNo,jdbcType=VARCHAR},#{erpBankName,jdbcType=VARCHAR},#{erpRank,jdbcType=VARCHAR},
+		#{erpIDCard,jdbcType=VARCHAR},#{ifPushMaycur,jdbcType=VARCHAR}
+		)
+	</insert>
+
+    <update id="updateidDingDingUser">
+				
+		UPDATE dingding_user 
+			SET
+			NAME = #{name,jdbcType=VARCHAR} , 
+			work_no = #{workNo,jdbcType=VARCHAR}, 
+			erp_no = #{erpNo,jdbcType=VARCHAR}, 
+			email = #{email,jdbcType=VARCHAR}, 
+			dept1 = #{dept1,jdbcType=VARCHAR}, 
+			dept2 = #{dept2,jdbcType=VARCHAR}, 
+			dept3 = #{dept3,jdbcType=VARCHAR}, 
+			dept4 = #{dept4,jdbcType=VARCHAR}, 
+			dept5 = #{dept5,jdbcType=VARCHAR}, 
+			POSITION = #{position,jdbcType=VARCHAR}, 
+			mobile = #{mobile,jdbcType=VARCHAR}, 
+			oa_no = #{oaNo,jdbcType=VARCHAR}, 
+			belong_big_district = #{belongBigDistrict,jdbcType=VARCHAR}, 
+			position_unit = #{positionUnit,jdbcType=VARCHAR}, 
+			cost_center = #{costCenter,jdbcType=VARCHAR}, 
+			salary_location = #{salaryLocation,jdbcType=VARCHAR}, 
+			position_type = #{positionType,jdbcType=VARCHAR}, 
+			start_work_date = #{startWorkDate,jdbcType=VARCHAR}, 
+			work_age = #{workAge,jdbcType=VARCHAR}, 
+			work_location = #{workLocation,jdbcType=VARCHAR}, 
+			phone = #{phone,jdbcType=VARCHAR}, 
+			belong_line = #{belongLine,jdbcType=VARCHAR}, 
+			line_post = #{linePost,jdbcType=VARCHAR}, 
+			become_regular_date = #{becomeRegularDate,jdbcType=VARCHAR}, 
+			id_name = #{idName,jdbcType=VARCHAR}, 
+			id_no = #{idNo,jdbcType=VARCHAR},
+			roles = #{roles,jdbcType=VARCHAR},
+			unionid = #{unionid,jdbcType=VARCHAR},
+			update_time = CURRENT_TIMESTAMP,
+			erpUnionPay = #{erpUnionPay,jdbcType=VARCHAR},
+			erpCompanyCode = #{erpCompanyCode,jdbcType=VARCHAR},
+			erpBuCode = #{erpBuCode,jdbcType=VARCHAR},
+			erpBuName = #{erpBuName,jdbcType=VARCHAR},
+			erpCompanyName = #{erpCompanyName,jdbcType=VARCHAR},
+			erpBankNo = #{erpBankNo,jdbcType=VARCHAR},
+			erpBankName = #{erpBankName,jdbcType=VARCHAR},
+			erpRank = #{erpRank,jdbcType=VARCHAR},
+			erpIDCard = #{erpIDCard,jdbcType=VARCHAR},
+			ifPushMaycur = #{ifPushMaycur,jdbcType=VARCHAR}
+			WHERE
+			dd_id = #{ddId}
+
+	</update>
+
+    <update id="updateUserDep">
+				
+		UPDATE dingding_user 
+			SET
+			dept1 = #{dept1}, 
+			dept2 = #{dept2}, 
+			dept3 = #{dept3}, 
+			dept4 = #{dept4}, 
+			dept5 = #{dept5},
+			update_time = CURRENT_TIMESTAMP
+			WHERE
+			dd_id = #{ddId}
+
+	</update>
+
+    <select id="selectOne" resultType="com.gdiot.ssm.entity.DingDingUser">
+		select * from dingding_user where  dd_id = #{ddId}
+	</select>
+
+    <select id="selectAllUserId" resultType="com.gdiot.ssm.entity.DingDingUser">
+		select dd_id from dingding_user
+	</select>
+
+</mapper>

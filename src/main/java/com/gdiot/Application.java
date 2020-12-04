@@ -37,6 +37,5 @@ public class Application {
 
         SpringContextUtils mSpringContextUtils = new SpringContextUtils();
         mSpringContextUtils.setApplicationContext(context);
-
     }
 }

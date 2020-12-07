@@ -8,10 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f644cdea-bc0d-4487-b9a6-6e24599db072" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingMsgDataPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingMsgDataPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingUserInfoPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingUserInfoPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingUserPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingUserPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingUserResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/entity/DingUserResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/impl/DingDingUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdiot/ssm/service/impl/DingDingUserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +64,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="MyDingdingProject" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gdiot.mydingdingproject.Application" />
@@ -108,17 +97,38 @@
       <workItem from="1607070771450" duration="530000" />
       <workItem from="1607072121945" duration="51000" />
       <workItem from="1607073913904" duration="178000" />
+      <workItem from="1607075311617" duration="1004000" />
+      <workItem from="1607307008745" duration="291000" />
+      <workItem from="1607307463955" duration="5939000" />
+      <workItem from="1607322959599" duration="1696000" />
+      <workItem from="1607325864766" duration="345000" />
     </task>
+    <task id="LOCAL-00001" summary="2020/12/4 17:51">
+      <created>1607075481885</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607075481885</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020/12/4 17:51" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/12/4 17:51" />
   </component>
   <component name="WindowStateProjectService">
     <state x="256" y="383" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607068956195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="256" y="383" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1607068956195" />
+    <state x="560" y="94" key="CommitChangelistDialog2" timestamp="1607075480186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="94" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607075480186" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1607069051815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -179,6 +189,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="602" y="228" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606982741935" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607075672696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607075672696" />
     <state x="773" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607069009163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

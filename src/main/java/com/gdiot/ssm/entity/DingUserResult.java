@@ -4,6 +4,9 @@ import java.sql.Timestamp;
 
 import lombok.Data;
 
+/**
+ * @author ZhouHR
+ */
 @Data
 public class DingUserResult {
 

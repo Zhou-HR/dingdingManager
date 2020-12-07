@@ -6,6 +6,9 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * @author ZhouHR
+ */
 @Data
 public class DingUserPo implements Serializable {
 
